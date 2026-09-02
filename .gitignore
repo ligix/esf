@@ -1,0 +1,4 @@
+*.esf
+*.bin
+*.o
+/interp/interp
