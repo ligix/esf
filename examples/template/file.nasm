@@ -1,0 +1,9 @@
+BITS 64
+default rel
+
+section .text:
+_start:
+    mov     rax,    60 
+    mov     rdi,    0
+    syscall                             ; exit(0)
+
